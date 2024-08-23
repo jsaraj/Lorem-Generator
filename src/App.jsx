@@ -1,13 +1,16 @@
 
 import './App.css'
+import LoremIpsumGenerator from './components/LoremIpsumGenerator'
 
 function App() {
 
 
   return (
-    <h1 className="text-3xl font-bold underline flex justify-center h-screen items-center">
-      Hello world!
-    </h1>
+
+    <>
+      <LoremIpsumGenerator />
+    </>
+    
   )
 }
 
